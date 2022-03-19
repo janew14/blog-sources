@@ -55,7 +55,7 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "Nice theme for homepages and blogs"
+  description = "All about Jane Wei"
   keywords = ""
   images = [""]
 
@@ -64,7 +64,7 @@ disableHugoGeneratorInject = false
   homeSubtitle = "喜欢画画的Jane"
 
   # Set a background for the homepage
-  # backgroundImage = "assets/images/background.jpg"
+  backgroundImage = "https://tva4.sinaimg.cn/large/0073WLvOgy1gqmif1zwhjj31hc0u00up.jpg"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
@@ -99,7 +99,7 @@ disableHugoGeneratorInject = false
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   #
-  customCSS = ["css/styles.css"]
+  customCSS = ['css/_styles.scss']
   customJS  = []
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
