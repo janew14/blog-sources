@@ -1,15 +1,17 @@
-+++
-categories = ["Hugo"]
-date = "2022-03-19"
-description = "Just a test"
-featured = "pic01.jpg"
-featuredalt = ""
-featuredpath = "date"
-linktitle = ""
-title = "Helle There"
-type = "post"
-[ author ]
-  name = "Jane"
-+++
+---
+author:
+- name: "Jane"
+date: 2022-03-19
+type:
+- post
+- posts
+title: 哇
+weight: 10
+series:
+- Hugo
+tags:
+- blog
+---
 
-Helloooooooo
+Helloooooooo  
+不止 one word

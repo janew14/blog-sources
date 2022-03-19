@@ -72,7 +72,7 @@ disableHugoGeneratorInject = false
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   #
-  disableReadOtherPosts = false
+  disableReadOtherPosts = true
 
   # Enable theme toggle
   # 
@@ -80,7 +80,7 @@ disableHugoGeneratorInject = false
   # Per default, this option is off. 
   # The theme is respecting the prefers-color-scheme of the operating systeme. 
   # With this option on, the page user is able to set the scheme he wants. 
-  enableThemeToggle = false
+  enableThemeToggle = true
 
   # Sharing buttons
   #
@@ -88,7 +88,7 @@ disableHugoGeneratorInject = false
   # generate the buttons here: https://sharingbuttons.io
   # and add them into your own `layouts/partials/sharing-buttons.html`
   #
-  enableSharingButtons = true
+  enableSharingButtons = false
 
   # Global language menu
   #
