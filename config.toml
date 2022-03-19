@@ -64,7 +64,7 @@ disableHugoGeneratorInject = false
   homeSubtitle = "喜欢画画的Jane"
 
   # Set a background for the homepage
-  backgroundImage = "https://tva4.sinaimg.cn/large/0073WLvOgy1gqmif1zwhjj31hc0u00up.jpg"
+  backgroundImage = "https://s3.bmp.ovh/imgs/2022/03/e02182bbd2748cf9.jpg"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
