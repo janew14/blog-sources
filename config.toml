@@ -25,7 +25,7 @@ buildExpired = false
 canonifyURLs = true
 
 enableRobotsTXT = true
-enableGitInfo   = false
+enableGitInfo   = true
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
 disableRSS     = false
@@ -37,7 +37,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "JaneW"
+  name = "Jane"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -94,28 +94,29 @@ disableHugoGeneratorInject = false
   #
   # Enables the global language menu.
   #
-  enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   #
-  customCSS = []
+  customCSS = ["css/styles.css"]
   customJS  = []
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   #
-  justifyContent = false  # Set "text-align: justify" to .post-content.
+  justifyContent = true  # Set "text-align: justify" to .post-content.
 
   # Custom footer 
   # If you want, you can easily override the default footer with your own content. 
   #
   [params.footer]
     trademark = true
-    rss = true
+    topText = []
+    rss = false
     copyright = false
     author = true
 
-    topText = []
+
     bottomText = [
       "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
     #   "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
@@ -124,9 +125,11 @@ disableHugoGeneratorInject = false
   # Colors for favicons
   #
   [params.favicon.color]
-    mask = "#1b1c1d"
+    # mask = "#1b1c1d"
+    mask = "red"
     msapplication = "#1b1c1d"
-    theme = "#1b1c1d"
+    # theme = "#1b1c1d"
+    theme = "red"
 
   [params.logo]
     logoMark     = ">"
@@ -185,13 +188,17 @@ disableHugoGeneratorInject = false
 [menu]
   [[menu.main]]
     identifier = "about"
-    name       = "About"
+    name       = "关于"
     url        = "about/"
   [[menu.main]]
     identifier = "tags"
-    name       = "Tags"
+    name       = "标签"
     url        = "/tags/"
   [[menu.main]]
     identifier = "posts"
-    name       = "Posts"
+    name       = "文章"
     url        = "posts/"
+  [[menu.main]]
+    name       = "分类"
+    identifier = "series"
+    url        = "/series/"

@@ -6,11 +6,10 @@ type:
 - post
 - posts
 title: 哇
-weight: 10
-series:
-- Hugo
+categories:
+- 博客
 tags:
-- blog
+- 博客
 ---
 
 Helloooooooo  
