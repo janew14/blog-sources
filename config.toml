@@ -156,7 +156,7 @@ disableHugoGeneratorInject = false
   # Uncomment this if you want a portrait on your start page
   #
   [params.portrait]
-    path     = "/img/dog-avatar.jpg"
+    path     = "https://s3.bmp.ovh/imgs/2022/03/22e44f454794480d.jpg"
     alt      = "Portrait"
     maxWidth = "130px"
 
@@ -200,5 +200,5 @@ disableHugoGeneratorInject = false
     url        = "posts/"
   [[menu.main]]
     name       = "分类"
-    identifier = "series"
-    url        = "/series/"
+    identifier = "categories"
+    url        = "/categories/"
