@@ -427,9 +427,12 @@ hr {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+  // 自定义
+  opacity: .4;
 }
 
 // Prism JS Additionals
 .highlight {
   margin: 30px auto;
+
 }
