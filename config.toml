@@ -64,7 +64,7 @@ disableHugoGeneratorInject = false
   homeSubtitle = "喜欢画画的Jane"
 
   # Set a background for the homepage
-  backgroundImage = "https://s3.bmp.ovh/imgs/2022/03/e02182bbd2748cf9.jpg"
+  backgroundImage = "https://s3.bmp.ovh/imgs/2022/03/35c172b54678ec46.jpg"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
@@ -80,7 +80,7 @@ disableHugoGeneratorInject = false
   # Per default, this option is off. 
   # The theme is respecting the prefers-color-scheme of the operating systeme. 
   # With this option on, the page user is able to set the scheme he wants. 
-  enableThemeToggle = true
+  enableThemeToggle = false
 
   # Sharing buttons
   #
