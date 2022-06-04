@@ -3,7 +3,6 @@ author:
 - name: "Jane"
 date: 2022-04-14
 type:
-- post
 - posts
 title: You Go Girl！
 categories:

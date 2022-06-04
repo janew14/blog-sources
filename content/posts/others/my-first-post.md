@@ -3,7 +3,6 @@ author:
 - name: "Jane"
 date: 2022-03-19
 type:
-- post
 - posts
 title: 哇
 categories:

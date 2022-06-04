@@ -3,7 +3,6 @@ author:
 - name: "Jane"
 date: 2022-03-27
 type:
-- post
 - posts
 title: 真正的my first post
 categories:

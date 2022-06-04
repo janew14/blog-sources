@@ -1,9 +1,8 @@
 +++
 title = "About Jane"
 date = "2022-05-20"
-aliases = ["about-us","about-hugo","contact"]
 [ author ]
-  name = "Hugo Authors"
+  name = "Jane"
 +++
 
 ### Jane Wei  :paw_prints:
@@ -11,12 +10,7 @@ aliases = ["about-us","about-hugo","contact"]
 **叫我Jane或者小汪都可以喔！**
 
 ####  关于我  
+喜欢画画~    
+这里有一些的我的画儿：[Jane's Works](https://blog.nekolas.cafe/jane-works/)
 
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
