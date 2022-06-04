@@ -52,6 +52,7 @@ disableHugoGeneratorInject = false
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
+  hasCJKLanguage = true
 
   # Metadata mostly used in document's head
   # 
@@ -172,6 +173,7 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "instagram"
     url  = "https://www.instagram.com/jane.weiliujing/"
+  
 
 
 # [languages]
@@ -202,3 +204,8 @@ disableHugoGeneratorInject = false
     name       = "分类"
     identifier = "categories"
     url        = "/categories/"
+  [markup]
+    defaultMarkdownHandler = 'goldmark'
+    [markup.goldmark]
+      [markup.goldmark.renderer]
+      unsafe=true

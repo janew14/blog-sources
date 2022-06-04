@@ -1,6 +1,3 @@
-mark{
-  background-color: #94ff5b;
-}
 .post {
   width: 100%;
   max-width: 800px;
@@ -109,6 +106,10 @@ mark{
   .flag {
     border-radius: 50%;
     margin: 0 5px;
+  }
+
+  .post-content mark{
+    background-color: #94ff5b!important;
   }
 }
 
