@@ -1,14 +1,17 @@
 +++
-title = "About"
-date = "2014-04-09"
+title = "About Jane"
+date = "2022-05-20"
 aliases = ["about-us","about-hugo","contact"]
 [ author ]
   name = "Hugo Authors"
 +++
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+### Jane Wei  :paw_prints:
+:dog:  
+**叫我Jane或者小汪都可以喔！**
 
-It makes use of a variety of open source projects including:
+####  关于我  
+
 
 * https://github.com/russross/blackfriday
 * https://github.com/alecthomas/chroma
