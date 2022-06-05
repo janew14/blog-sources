@@ -1,17 +1,17 @@
 baseURL = "https://www.janew.tk/"
 title   = "JaneW"
-languageCode = "en-us"
+languageCode = "zh-cn"
 theme = "hello-friend-ng"
+paginate  = 10
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
-paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 # googleAnalytics = ""
-# disqusShortname = ""
+disqusShortname = "disqus_985mjURc0y"
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -39,41 +39,38 @@ disableHugoGeneratorInject = false
 [author]
   name = "Jane"
 
-  # [blackfriday]
-  #  hrefTargetBlank = true
+[blackfriday]
+  hrefTargetBlank = true
 
 [taxonomies]
   tag      = "tags"
   category = "categories"
-  series   = "series"
 
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
-  hasCJKLanguage  = true
+  toc = true
 
   # Metadata mostly used in document's head
   # 
-  description = "All about Jane Wei"
-  keywords = ""
+  description = "Jane's Blog"
+  keywords = "Drawing, blog, life"
   images = [""]
 
   # Home subtitle of the index page.
-  #
   homeSubtitle = "喜欢画画的Jane"
 
   # Set a background for the homepage
-  backgroundImage = "https://s3.bmp.ovh/imgs/2022/03/35c172b54678ec46.jpg"
+  # backgroundImage = "https://s3.bmp.ovh/imgs/2022/03/35c172b54678ec46.jpg"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  #
-  # gitUrl = ""
+  # gitUrl = "git@github.com:janew/janew.github.io.git"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   #
-  disableReadOtherPosts = true
+  disableReadOtherPosts = false
 
   # Enable theme toggle
   # 
@@ -81,31 +78,20 @@ disableHugoGeneratorInject = false
   # Per default, this option is off. 
   # The theme is respecting the prefers-color-scheme of the operating systeme. 
   # With this option on, the page user is able to set the scheme he wants. 
-  enableThemeToggle = false
+  enableThemeToggle = true
 
-  # Sharing buttons
-  #
-  # There are a lot of buttons preconfigured. If you want to change them,
-  # generate the buttons here: https://sharingbuttons.io
-  # and add them into your own `layouts/partials/sharing-buttons.html`
-  #
-  enableSharingButtons = false
-
-  # Global language menu
-  #
-  # Enables the global language menu.
-  #
-  enableGlobalLanguageMenu = false
+  enableSharingButtons = true
+  GlobalLanguageMenu = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   #
-  customCSS = ['css/_styles.css']
+  customCSS = ['css/_style.scss']
   customJS  = []
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   #
-  justifyContent = true  # Set "text-align: justify" to .post-content.
+  # justifyContent = true  # Set "text-align: justify" to .post-content.
 
   # Custom footer 
   # If you want, you can easily override the default footer with your own content. 
@@ -113,10 +99,9 @@ disableHugoGeneratorInject = false
   [params.footer]
     trademark = true
     topText = []
-    rss = false
+    rss = true
     copyright = false
     author = true
-
 
     bottomText = [
       "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
@@ -126,20 +111,17 @@ disableHugoGeneratorInject = false
   # Colors for favicons
   #
   [params.favicon.color]
-    # mask = "#1b1c1d"
-    mask = "red"
+    mask = "#1b1c1d"
     msapplication = "#1b1c1d"
-    # theme = "#1b1c1d"
-    theme = "red"
+    theme = "#1b1c1d"
+    # theme = "red"
 
   [params.logo]
     logoMark     = ">"
     logoText     = "$ cd /home/JaneW"
     logoHomeLink = "/"
-    # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
-    # Set to a valid CSS color to change the cursor in the logo.
-    # logoCursorColor    = "#67a2c9"
+    logoCursorColor    = "#97bb06"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     # logoCursorAnimate  = "2s"
 
@@ -152,10 +134,9 @@ disableHugoGeneratorInject = false
   # Uncomment this to enable Commento.
   #
   # [params.commento]
-  #   url = ""
+  # url = ""
 
   # Uncomment this if you want a portrait on your start page
-  #
   [params.portrait]
     path     = "https://s3.bmp.ovh/imgs/2022/03/22e44f454794480d.jpg"
     alt      = "Portrait"
@@ -174,19 +155,6 @@ disableHugoGeneratorInject = false
     name = "instagram"
     url  = "https://www.instagram.com/jane.weiliujing/"
   
-
-
-# [languages]
-#   [languages.en]
-#     subtitle  = "Jane"
-#     weight    = 1
-#     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
-#   [languages.zh]
-#     subtitle  = "J桑"
-#     weight    = 2
-#     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
 [menu]
   [[menu.main]]
     identifier = "about"
@@ -198,15 +166,24 @@ disableHugoGeneratorInject = false
     url        = "/tags/"
   [[menu.main]]
     identifier = "posts"
-    name       = "文章"
+    name       = "所有文章"
     url        = "posts/"
   [[menu.main]]
     name       = "分类"
     identifier = "categories"
     url        = "/categories/"
     
-  [markup]
-    defaultMarkdownHandler = 'goldmark'
-    [markup.goldmark]
-      [markup.goldmark.renderer]
-      unsafe=true
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+    unsafe=true
+
+
+defaultContentLanguage = 'zh-cn'
+[languages]
+  [languages.en]
+    languageCode = "en"
+  [languages.zh-cn]
+    languageCode = "zh-cn"
+    hasCJKLanguage  = true

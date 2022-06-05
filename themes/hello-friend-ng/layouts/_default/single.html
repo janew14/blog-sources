@@ -9,6 +9,7 @@
                 {{ end}}
             {{ end }}
             </p>
+        {{ partial "breadcrumb.html" . }}
         </div>
 
         <article>
@@ -34,6 +35,8 @@
             {{ end }}
 
             <div class="post-content">
+                {{ partial "tags.html" .Params.tags }}
+
                 {{ .Content }}
             </div>
         </article>
